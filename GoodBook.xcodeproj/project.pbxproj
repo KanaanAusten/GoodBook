@@ -37,6 +37,7 @@
 		24B1F3251CCA0168009BD137 /* GBBooksModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1F3241CCA0168009BD137 /* GBBooksModel.m */; };
 		39F8912A21158C664B0AF355 /* libPods-GoodBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3873B0DB5486864FFC680C12 /* libPods-GoodBook.a */; };
 		5261589466813E6B2E8E80E5 /* libPods-GoodBookUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87769848A986420D6C3955DD /* libPods-GoodBookUITests.a */; };
+		8585D2D403FB3BB193C33B65 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8585D8EBC2142F377276214C /* Podfile */; };
 		D0E68DEAD7EE05E890AF8C6A /* libPods-GoodBookTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6265F1F1B38FC1D0CCC5FF /* libPods-GoodBookTests.a */; };
 /* End PBXBuildFile section */
 
@@ -120,6 +121,7 @@
 		6125440EDA5409CFE19AF3F8 /* Pods-GoodBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodBookUITests/Pods-GoodBookUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7CCDC1C0BFE52F08CA9EB433 /* Pods-GoodBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodBook/Pods-GoodBook.debug.xcconfig"; sourceTree = "<group>"; };
 		83F3DA8E5EEA90D808CA2FF5 /* Pods-GoodBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodBook/Pods-GoodBook.release.xcconfig"; sourceTree = "<group>"; };
+		8585D8EBC2142F377276214C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		87769848A986420D6C3955DD /* libPods-GoodBookUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoodBookUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D6AF80FF4F2599C3708755 /* Pods-GoodBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodBookTests/Pods-GoodBookTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -259,6 +261,7 @@
 			isa = PBXGroup;
 			children = (
 				24B1F2CF1CC9C7BF009BD137 /* KitBagData.plist */,
+				8585D8EBC2142F377276214C /* Podfile */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -645,6 +648,7 @@
 				24B1F31A1CC9C7BF009BD137 /* LaunchScreen.storyboard in Resources */,
 				24B1F29E1CC9C70E009BD137 /* Assets.xcassets in Resources */,
 				24B1F3161CC9C7BF009BD137 /* MBProgressHUD.bundle in Resources */,
+				8585D2D403FB3BB193C33B65 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,7 +676,7 @@
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "\uD83D\uDCE6 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -687,7 +691,7 @@
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "\uD83D\uDCE6 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -702,7 +706,7 @@
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "\uD83D\uDCE6 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -717,7 +721,7 @@
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "\uD83D\uDCE6 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -732,7 +736,7 @@
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "\uD83D\uDCE6 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -747,7 +751,7 @@
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "\uD83D\uDCE6 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -762,7 +766,7 @@
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "\uD83D\uDCE6 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -777,7 +781,7 @@
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "\uD83D\uDCE6 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
