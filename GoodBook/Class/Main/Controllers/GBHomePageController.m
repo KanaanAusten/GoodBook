@@ -40,9 +40,9 @@
     GBKitBagViewController *kitBag = [[GBKitBagViewController alloc]init];
     [self setUpOneChildViewController:kitBag title:@"锦囊袋" imageName:@"KitBag" selectedImageName:@"KitBag" badgeValue:@"10"];
     GBShoppingBagViewController *shoppingBag = [[GBShoppingBagViewController alloc]init];
-    [self setUpOneChildViewController:shoppingBag title:@"锦囊袋" imageName:@"ShoppingBag" selectedImageName:@"ShoppingBag" badgeValue:@"10"];
+    [self setUpOneChildViewController:shoppingBag title:@"购物袋" imageName:@"ShoppingBag" selectedImageName:@"ShoppingBag" badgeValue:@"10"];
     GBPersonalCenterViewController *personalCenter = [[GBPersonalCenterViewController alloc]init];
-    [self setUpOneChildViewController:personalCenter title:@"锦囊袋" imageName:@"PersonalCenter" selectedImageName:@"PersonalCenter" badgeValue:@"10"];
+    [self setUpOneChildViewController:personalCenter title:@"个人中心" imageName:@"PersonalCenter" selectedImageName:@"PersonalCenter" badgeValue:@"10"];
 }
 
 -(void)setUpOneChildViewController:(UIViewController *)viewController title:(NSString *)title imageName:(NSString *)imageName selectedImageName:(NSString *)selectedImageName badgeValue:(NSString *)badgeValue{

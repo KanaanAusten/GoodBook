@@ -32,6 +32,9 @@
 		24B1F31A1CC9C7BF009BD137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B1F2FA1CC9C7BF009BD137 /* LaunchScreen.storyboard */; };
 		24B1F31B1CC9C7BF009BD137 /* GBPersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1F2FE1CC9C7BF009BD137 /* GBPersonalCenterViewController.m */; };
 		24B1F31C1CC9C7BF009BD137 /* GBShoppingBagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1F3051CC9C7BF009BD137 /* GBShoppingBagViewController.m */; };
+		24B1F31F1CC9F421009BD137 /* GBPersonalCenterHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1F31E1CC9F421009BD137 /* GBPersonalCenterHeaderView.m */; };
+		24B1F3221CC9FC1C009BD137 /* GBDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1F3211CC9FC1C009BD137 /* GBDBManager.m */; };
+		24B1F3251CCA0168009BD137 /* GBBooksModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1F3241CCA0168009BD137 /* GBBooksModel.m */; };
 		39F8912A21158C664B0AF355 /* libPods-GoodBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3873B0DB5486864FFC680C12 /* libPods-GoodBook.a */; };
 		5261589466813E6B2E8E80E5 /* libPods-GoodBookUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87769848A986420D6C3955DD /* libPods-GoodBookUITests.a */; };
 		D0E68DEAD7EE05E890AF8C6A /* libPods-GoodBookTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6265F1F1B38FC1D0CCC5FF /* libPods-GoodBookTests.a */; };
@@ -105,6 +108,12 @@
 		24B1F2FE1CC9C7BF009BD137 /* GBPersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBPersonalCenterViewController.m; sourceTree = "<group>"; };
 		24B1F3041CC9C7BF009BD137 /* GBShoppingBagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBShoppingBagViewController.h; sourceTree = "<group>"; };
 		24B1F3051CC9C7BF009BD137 /* GBShoppingBagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBShoppingBagViewController.m; sourceTree = "<group>"; };
+		24B1F31D1CC9F421009BD137 /* GBPersonalCenterHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBPersonalCenterHeaderView.h; sourceTree = "<group>"; };
+		24B1F31E1CC9F421009BD137 /* GBPersonalCenterHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBPersonalCenterHeaderView.m; sourceTree = "<group>"; };
+		24B1F3201CC9FC1C009BD137 /* GBDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDBManager.h; sourceTree = "<group>"; };
+		24B1F3211CC9FC1C009BD137 /* GBDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBDBManager.m; sourceTree = "<group>"; };
+		24B1F3231CCA0168009BD137 /* GBBooksModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBBooksModel.h; sourceTree = "<group>"; };
+		24B1F3241CCA0168009BD137 /* GBBooksModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBBooksModel.m; sourceTree = "<group>"; };
 		28F7B58BEECD58B583769BE9 /* Pods-GoodBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodBookTests/Pods-GoodBookTests.release.xcconfig"; sourceTree = "<group>"; };
 		3873B0DB5486864FFC680C12 /* libPods-GoodBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoodBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		415309B6F1D4A61596A9D816 /* Pods-GoodBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodBookUITests/Pods-GoodBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -329,6 +338,8 @@
 		24B1F2E01CC9C7BF009BD137 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				24B1F3231CCA0168009BD137 /* GBBooksModel.h */,
+				24B1F3241CCA0168009BD137 /* GBBooksModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -395,6 +406,8 @@
 		24B1F2F81CC9C7BF009BD137 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				24B1F3201CC9FC1C009BD137 /* GBDBManager.h */,
+				24B1F3211CC9FC1C009BD137 /* GBDBManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -444,6 +457,8 @@
 		24B1F3011CC9C7BF009BD137 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				24B1F31D1CC9F421009BD137 /* GBPersonalCenterHeaderView.h */,
+				24B1F31E1CC9F421009BD137 /* GBPersonalCenterHeaderView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -782,15 +797,18 @@
 				24B1F30A1CC9C7BF009BD137 /* GBKitBagDateFrameModel.m in Sources */,
 				24B1F3091CC9C7BF009BD137 /* GBKitBagViewController.m in Sources */,
 				24B1F3151CC9C7BF009BD137 /* MBProgressHUD+MJ.m in Sources */,
+				24B1F31F1CC9F421009BD137 /* GBPersonalCenterHeaderView.m in Sources */,
 				24B1F3181CC9C7BF009BD137 /* WaterFlowCell.m in Sources */,
 				24B1F31B1CC9C7BF009BD137 /* GBPersonalCenterViewController.m in Sources */,
 				24B1F30D1CC9C7BF009BD137 /* GBKitBagCell.m in Sources */,
+				24B1F3251CCA0168009BD137 /* GBBooksModel.m in Sources */,
 				24B1F29C1CC9C70E009BD137 /* GoodBook.xcdatamodeld in Sources */,
 				24B1F3171CC9C7BF009BD137 /* MBProgressHUD.m in Sources */,
 				24B1F3111CC9C7BF009BD137 /* AppDelegate.m in Sources */,
 				24B1F30F1CC9C7BF009BD137 /* GBHomePageController.m in Sources */,
 				24B1F3121CC9C7BF009BD137 /* UIBarButtonItem+GBBarButtonItem.m in Sources */,
 				24B1F2901CC9C70E009BD137 /* main.m in Sources */,
+				24B1F3221CC9FC1C009BD137 /* GBDBManager.m in Sources */,
 				24B1F31C1CC9C7BF009BD137 /* GBShoppingBagViewController.m in Sources */,
 				24B1F3101CC9C7BF009BD137 /* GBNavigationController.m in Sources */,
 				24B1F30E1CC9C7BF009BD137 /* GBLoginViewController.m in Sources */,
